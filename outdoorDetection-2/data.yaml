@@ -1,0 +1,14 @@
+names:
+  - obstacle
+  - stairs
+  - wall
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: outdoordetection
+  url: https://universe.roboflow.com/aniket-fpzba/outdoordetection/dataset/2
+  version: 2
+  workspace: aniket-fpzba
+test: ./test/images
+train: ./train/images
+val: ./valid/images
